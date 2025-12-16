@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Välkommen till Unblocked Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Välkommen till Unblocked Games</h1>
+  <input id="search" placeholder="Sök spel..." onkeyup="searchGames()">
+</header>
+
+<main id="games"></main>
+
+<div id="overlay" onclick="closeGame()">
+  <iframe id="gameFrame"></iframe>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
